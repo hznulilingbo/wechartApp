@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/index/index",
+    "pages/devices/devices",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "DoSmart",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/devices/devices",
+      "text": "设备"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
