@@ -13,10 +13,10 @@
             <input password="true" name="password" />
         </view>
         <view class="button">
-            <button type="primary" form-type="submit">确认</button>
+            <van-button type="primary" form-type="submit">确认</van-button>
         </view>
     </form>
     <view class="fpwd" bindtap="findpwd">
-        <text>忘记密码</text>
+        <van-text>忘记密码</van-text>
     </view>
 </view>

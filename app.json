@@ -1,8 +1,8 @@
 {
   "pages":[
+    "pages/devices/devices",
     "pages/login/login",
     "pages/index/index",
-    "pages/devices/devices",
     "pages/logs/logs"
   ],
   "window":{
@@ -20,6 +20,9 @@
       "text": "设备"
     }]
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-field": "@vant/weapp/field/index"
+  }
 }
